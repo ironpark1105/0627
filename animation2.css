@@ -1,0 +1,27 @@
+#night .starwrap .star1,
+#night .starwrap .star2,
+#night .starwrap .star3{
+    animation: pulsestar 1s linear infinite alternate
+}
+
+@keyframes pulsestar {
+    from {transform: scale(1);}
+    to{transform: scale(0.8);}
+}
+
+#night2 .moon {
+    animation: movemoon linear 10s infinite;
+}
+
+@keyframes movemoon {
+    from {margin-left: -135;}
+    to{margin-left: 110%;}
+}
+#morning .sun {
+    animation: movesun linear 10s 1500ms infinite;
+}
+
+@keyframes movesun {
+    from {margin-left: -131px;}
+    to{margin-left: 110%;}
+}

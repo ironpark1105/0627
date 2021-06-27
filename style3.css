@@ -1,0 +1,98 @@
+#night {
+    width: 100%;
+    height: 700px;
+    background-image: url(../0622코딩/img/oneday/night1/night1_bg.png);
+}
+
+#night .ow1 {
+    position: absolute;
+    width: 334px;
+    height: 571px;
+    background-image: url(../0622코딩/img/oneday/night1/owl.png);
+    margin-top: 50px;
+}
+
+#night .starwrap {
+    position: relative;
+    width: 750px;
+    height: 400px;
+    top: 150px;
+    margin-left: 600px;
+}
+#night .starwrap .star1,
+#night .starwrap .star2,
+#night .starwrap .star3 {
+    position: absolute;
+    width: 53px;
+    height: 50px;
+    background-image: url(../0622코딩/img/oneday/night1/star1.png);
+
+}
+#night .starwrap .star1{
+    margin-top: 350px;
+}
+#night .starwrap .star2{
+    margin-left: 650px;
+}
+#night .starwrap .star3{
+    margin: 250px 0 0 500px;
+}
+
+#night2 {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url(../0622코딩/img/oneday/night2/night2_bg.png);
+}
+
+#night2 .moon {
+    width: 135px;
+    height: 135px;
+    background-image: url(../0622코딩/img/oneday/night2/moon.png);
+}
+
+#night2 .night2bubble {
+    position: absolute;
+    margin: 300px 0 0 80px;
+}
+
+#night2 .rightmoontree {
+    position: absolute;
+    width: 243px;
+    height: 588px;
+    background-image: url(../0622코딩/img/oneday/night2/moontree.png);
+    right: 0;
+    bottom: 0;
+}
+
+
+
+#morning {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url(../0622코딩/img/oneday/morning/morning_bg.png);
+}
+
+#morning .sun {
+    width: 131px;
+    height: 131px;
+    background-image: url(../0622코딩/img/oneday/morning/sun.png);
+}
+
+#morning .leftpine {
+    position: absolute;
+    width: 231px;
+    height: 329px;
+    background-image: url(../0622코딩/img/oneday/morning/leftpine.png);
+    top: 270PX;
+}
+
+#morning .rightpine {
+    position: absolute;
+    width: 294px;
+    height: 609px;
+    background-image: url(../0622코딩/img/oneday/morning/rightpine.png);
+    right: 0;
+    bottom: 0;
+}

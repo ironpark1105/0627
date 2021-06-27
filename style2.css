@@ -1,0 +1,87 @@
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#science {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url(../0622코딩/img/science/science_bg.png);
+}
+
+#science .sciencewrap {
+position: relative;
+width: 1066px;
+height: 611px;
+left: 50%;
+margin-left: -533px;
+}
+
+#science .sciencewrap .sienceleftwrap {
+float: left;
+}
+
+#science .sciencewrap .sienceleftwrap .gly {
+    width: 230px;
+    height: 192px;
+    background-image: url(../0622코딩/img/science/gly.png);
+    margin-bottom: 130px;
+    margin-left: 55px;
+}
+
+#science .sciencewrap .sienceleftwrap p {
+    color: #8E7577;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+#science .sciencewrap .sciencecenterwrap {
+    float: left;
+}
+
+#science .sciencewrap .sciencecenterwrap .purplesteam {
+    position: relative;
+    width: 241px;
+    height: 216px;
+    background-image: url(../0622코딩/img/science/grape.png);
+    left: 50%;
+    margin-left: -120px;
+    z-index: 100;
+}
+
+#science .sciencewrap .sciencecenterwrap .funne1back {
+    position: absolute;
+    width: 488px;
+    height: 438px;
+    background-image: url(../0622코딩/img/science/hopperback.png);
+    margin-top: -45px;
+}
+
+
+#science .sciencewrap .sciencecenterwrap .funne1front {
+    position: relative;
+    width: 485px;
+    height: 390px;
+    background-image: url(../0622코딩/img/science/hopperfront.png);
+    margin-top: 5px;
+    margin-left: 2px; 
+}
+
+#science .sciencewrap .sciencerightwrap {
+    float: right;
+}
+
+#science .sciencewrap .sciencerightwrap .water {
+    width: 204px;
+    height: 191px;
+    background-image: url(../0622코딩/img/science/water.png);
+    margin-bottom: 130px;
+}
+#science .sciencewrap .sciencerightwrap p {
+    color: #8E7577;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+}

@@ -1,0 +1,17 @@
+#science .sciencewrap .gly {
+    animation: spingly 1500ms linear infinite alternate;
+}
+
+@keyframes spingly {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(50deg);}
+}
+
+#science .sciencewrap .water {
+    animation: spinwater 1500ms linear infinite alternate;
+}
+
+@keyframes spinwater {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-50deg);}
+}
